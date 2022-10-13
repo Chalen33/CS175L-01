@@ -48,12 +48,16 @@ line.penup()
 line.setposition(-55,-80)
 line.pendown()
 
+line.fillcolor('red')
+line.begin_fill()
+
 #Draw the octagon.
-turtle.bgcolor('red')
-line.color('white')
+line.color('red')
 for x in range(8):
     line.forward(100)
     line.left(45)
+    
+line.end_fill()
 
 #Display Stop
 word_font = ('Arial', 85, 'bold')
