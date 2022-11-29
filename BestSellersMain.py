@@ -93,7 +93,7 @@ def main():
         elif choices == '4': 
             title_search(books)
 
-        if choices == 'q' or choices == 'Q':
+        elif choices == 'q' or choices == 'Q':
             go= False
             print('Done')
 
